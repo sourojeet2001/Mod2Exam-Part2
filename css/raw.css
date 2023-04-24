@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./macbook-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.formcontrol {
+  margin: 0 auto;
+  padding: 0 10px;
+  margin-top: 200px;
+  width: 40%;
+}
+.formfields {
+  color: white;
+  padding: 50px;
+  background-color: rgba(168, 166, 166, 0.4);
+  border-radius: 50px;
+}
+.reg-formcontrol {
+  margin: 0 auto;
+  padding: 0 10px;
+  margin-top: 120px;
+  width: 65%;
+}
+.reg-formfields {
+  color: white;
+  padding: 50px;
+  background-color: rgba(168, 166, 166, 0.4);
+  border-radius: 50px;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+.namecomponent {
+  flex: 0 0 48%;
+  width: 100%;
+  max-width: 100%;
+}
+button#submit {
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+button#submit:hover {
+  background-color: red;
+  transition: all ease 0.9s;
+  padding: 10px 40px;
+}
+.login_link {
+  padding-top: 13px;
+  font-weight: 500;
+}
+.forgot_pw {
+  padding-top: 7px;
+  font-weight: 400;
+  color: red;
+}
+.signup_link {
+  margin-top: 16px;
+  font-weight: bold;
+}
